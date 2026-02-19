@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
+import CurrencyConverter from "./components/CurrencyConverter";
 import Footer from "./components/Footer";
 
 function App() {
@@ -10,9 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
-      <main className="p-8">
-        <h2 className="text-xl font-semibold">Welcome to your Currency Converter!</h2>
-      </main>
+      <CurrencyConverter />
       <Footer />
     </div>
   );
