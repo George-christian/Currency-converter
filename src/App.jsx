@@ -1,9 +1,15 @@
+import React from "react";
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-blue-100">
-      <h1 className="text-4xl font-bold text-blue-700">Hello, Tailwind!</h1>
+    <div>
+      <Header />
+      <main className="p-8">
+        <h2 className="text-xl font-semibold">Welcome to your Currency Converter!</h2>
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
