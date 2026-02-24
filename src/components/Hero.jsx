@@ -1,4 +1,5 @@
 import React from "react";
+import heroImage from "../assets/images/logo.png";
 
 function Hero() {
   return (
@@ -10,7 +11,7 @@ function Hero() {
         <p className="text-blue-700 mb-8 text-lg">
           Easily convert between any currencies with real-time exchange rates.
         </p>
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition mt-6">
           Get Started
         </button>
       </div>
