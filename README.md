@@ -1,16 +1,46 @@
-# React + Vite
+💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Currency Converter web application built with React and Tailwind CSS.
+This app allows users to convert between different currencies using real-time exchange rates fetched from a public currency API.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 (Add your deployed link here – Netlify/Vercel)
 
-## React Compiler
+📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The Currency Converter App enables users to:
 
-## Expanding the ESLint configuration
+Enter an amount
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Select a base currency
+
+Select a target currency
+
+Instantly view the converted amount using live exchange rates
+
+The application is fully responsive and works seamlessly across desktop, tablet, and mobile devices.
+
+✨ Features
+
+🔄 Real-time currency conversion
+
+🌍 Support for multiple international currencies
+
+📱 Responsive UI with Tailwind CSS
+
+⚡ Fast and dynamic updates using React
+
+❌ Error handling for invalid inputs or API issues
+
+🕒 Optional display of last updated exchange rate time
+
+🛠️ Built With
+
+React – Frontend library for building UI
+
+Tailwind CSS – Utility-first CSS framework
+
+ExchangeRate-API – For fetching real-time exchange rates
+
+Vercel / Netlify – Deployment platform
