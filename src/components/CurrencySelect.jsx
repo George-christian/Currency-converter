@@ -1,21 +1,17 @@
 import React from "react";
 
-function CurrencySelect({ currency, onCurrencyChange }) {
+function CurrencySelect({ selected, setSelected, currencies }) {
   return (
     <select
-      value={currency}
-      onChange={onCurrencyChange}
-      className="w-full border p-2 rounded"
+      value={selected}
+      onChange={(e) => setSelected(e.target.value)}
+      className="w-full border p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
     >
-      <option value="USD">USD</option>
-      <option value="EUR">EUR</option>
-      <option value="GBP">GBP</option>
-      <option value="NGN">NGN</option>
-      <option value="JPY">JPY</option>
-      <option value="CHF">CHF</option>
-      <option value="CAD">CAD</option>
-      <option value="CNY">CNY</option>
-      <option value="AED">AED</option>
+      {currencies.map((currency) => (
+        <option key={currency} value={currency}>
+          {currency}
+        </option>
+      ))}
     </select>
   );
 }
